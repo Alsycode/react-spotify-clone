@@ -53,6 +53,7 @@ export default function Spotify() {
     };
     getPlaybackState();
   }, [dispatch, token]);
+  console.log("token", token)
   return (
     <Container>
       <div className="spotify__body">
